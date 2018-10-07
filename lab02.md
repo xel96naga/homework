@@ -45,7 +45,7 @@
 
 比如，敌人的随机移动
 
-![ ](https://github.com/xel96naga/swi-homework/blob/gh-pages/photo/mo9.png?raw=true)
+![ ](https://raw.githubusercontent.com/xel96naga/swi-homework/gh-pages/photo/mo9.png)
  
  可以可看出，我调用了不少的随机函数，随机敌人每一秒在X,Y轴上的运动，是敌人的运动随机
  random（-xxx，xxx）就是这样了
@@ -54,13 +54,13 @@
 
 再说，打怪与掉血，杀死
 
-![ ](https://github.com/xel96naga/swi-homework/blob/gh-pages/photo/aaa.png?raw=true)
+![ ](https://raw.githubusercontent.com/xel96naga/swi-homework/gh-pages/photo/aaa.png)
 
 设计health参数，描述血量，当health=0 时，死亡。当然，如果怪物只有1滴血，可以直接destory（摧毁）。
 
 最后，移动用方向键显然不符合现在人的习惯。我把他调成WSAD,并且改了移动速度
 
-![ ](https://github.com/xel96naga/swi-homework/blob/gh-pages/photo/kkk.png?raw=true)
+![ ](https://raw.githubusercontent.com/xel96naga/swi-homework/gh-pages/photo/kkk.png)
 
 其他的一些操作再次不便枚举了，总之，一步一步来。高楼是一块一块砖头推成的，游戏event再多，也是一点一点拼出来的。
 
