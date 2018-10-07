@@ -23,9 +23,50 @@
 ![ ](https://raw.githubusercontent.com/xel96naga/swi-homework/gh-pages/photo/43XHHX%7DVO58LI%5DF_6O4F4W3.png)
 
 
-
 我保证每个场景会饱满的出现在同一个屏幕内，直到死亡或者通关。视角跟着地图走，而不是跟着主角走。
 
 
+### 第一次写程序就46个event，真的好难啊
 
-![](https://github.com/xel96naga/swi-homework/blob/gh-pages/photo/X8NZWRJFW%7DG6~QH67%6057)9O.png?raw=true）
+
+![ ](https://github.com/xel96naga/swi-homework/blob/gh-pages/photo/X8NZWRJFW%7DG6~QH67%60579O.png?raw=true)
+
+
+仔细看，这些event有的是为了操作，比如WSAD移动，5213不同方向的射击。
+有的是为了子弹杀人，减血。
+还有的就是视角转换，通关，死亡，胜利，都会进入不同的视角。
+
+
+## Construct2 真好玩
+
+我不得不说我是个初学者。
+
+举几个操作的例子把。
+
+比如，敌人的随机移动
+
+![ ](https://github.com/xel96naga/swi-homework/blob/gh-pages/photo/mo9.png?raw=true)
+ 
+ 可以可看出，我调用了不少的随机函数，随机敌人每一秒在X,Y轴上的运动，是敌人的运动随机
+ random（-xxx，xxx）就是这样了
+
+
+
+再说，打怪与掉血，杀死
+
+![ ](https://github.com/xel96naga/swi-homework/blob/gh-pages/photo/aaa.png?raw=true)
+
+设计health参数，描述血量，当health=0 时，死亡。当然，如果怪物只有1滴血，可以直接destory（摧毁）。
+
+最后，移动用方向键显然不符合现在人的习惯。我把他调成WSAD,并且改了移动速度
+
+![ ](https://github.com/xel96naga/swi-homework/blob/gh-pages/photo/kkk.png?raw=true)
+
+其他的一些操作再次不便枚举了，总之，一步一步来。高楼是一块一块砖头推成的，游戏event再多，也是一点一点拼出来的。
+
+
+
+
+# 希望我还能做出更好的游戏
+
+
